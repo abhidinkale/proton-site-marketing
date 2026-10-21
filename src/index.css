@@ -1,0 +1,42 @@
+:root {
+  font-family: 'Inter Tight Variable', 'Arial Narrow', Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  color: #19211e;
+  background: #f7f8f6;
+  scroll-behavior: smooth;
+  --ink: #19211e;
+  --muted: #65706b;
+  --paper: #f7f8f6;
+  --line: #d9dfdc;
+  --blue: #4263eb;
+  --forest: #17231f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--paper);
+  font-family: 'Inter Tight Variable', 'Arial Narrow', Arial, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  color: #fff;
+  background: var(--blue);
+}
